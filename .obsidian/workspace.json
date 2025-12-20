@@ -11,14 +11,17 @@
             "id": "f5ca55bf3a68a0d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Stats System.md",
-                "mode": "source",
-                "source": false
+                "file": "abilities/Untitled.canvas",
+                "viewState": {
+                  "x": 253.79807836553744,
+                  "y": 31.225823542808968,
+                  "zoom": -1.056046494678264
+                }
               },
-              "icon": "lucide-file",
-              "title": "Stats System"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stats System.md",
+                "file": "abilities/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stats System"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stats System.md",
+                "file": "abilities/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Stats System"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stats System.md",
+                "file": "abilities/Untitled.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stats System"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -171,11 +174,11 @@
   },
   "active": "f5ca55bf3a68a0d3",
   "lastOpenFiles": [
+    "Stats System.md",
     "README.md",
     "abilities/Untitled.canvas",
     "Basic Actions and Conditions.md",
     "Combat System.md",
-    "Stats System.md",
     "Game Mechanics.md",
     "Social Interactions.md",
     "Spells.md",
