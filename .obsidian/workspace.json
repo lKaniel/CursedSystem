@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fde1448a30538128",
+        "id": "996950bd06af7057",
         "type": "tabs",
         "children": [
           {
-            "id": "f5ca55bf3a68a0d3",
+            "id": "5661f06a5516834f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "abilities/Untitled.canvas",
-                "viewState": {
-                  "x": 253.79807836553744,
-                  "y": 31.225823542808968,
-                  "zoom": -1.056046494678264
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -97,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "abilities/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
@@ -116,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "abilities/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
@@ -145,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "abilities/Untitled.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
         ]
@@ -172,24 +162,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "f5ca55bf3a68a0d3",
+  "active": "5661f06a5516834f",
   "lastOpenFiles": [
-    "Stats System.md",
-    "README.md",
+    "abilities/categories/Bows and Crossbows.md.tmp.55944.1766272627379",
+    "abilities/skills/Perfect Aim.md",
+    "abilities/skills/Boomerang Strike.md",
+    "abilities/skills/Multi-Throw.md",
+    "abilities/skills/Returning Weapon.md",
+    "abilities/skills/Quick Toss.md",
+    "abilities/skills/Thrown Weapon Proficiency.md",
+    "abilities/skills/Arrow Storm.md",
+    "abilities/skills/Headshot.md",
+    "abilities/skills/Headshot.md.tmp.55944.1766272476665",
+    "abilities/skills/Volley.md",
+    "abilities/skills/Piercing Shot.md",
+    "abilities/skills/Piercing Shot.md.tmp.55944.1766272473497",
+    "abilities/skills/Rapid Fire.md",
+    "abilities/skills/Aimed Shot.md",
+    "abilities/skills/Bow Proficiency.md",
+    "abilities/skills/Vital Strike.md",
+    "abilities/skills/Flurry of Daggers.md",
+    "abilities/skills/Shadow Knife.md",
+    "abilities/skills/Backstab.md",
+    "abilities/skills/Quick Strike.md",
+    "abilities/skills/Dual Wielding.md",
+    "abilities/skills/Dagger Proficiency.md",
+    "abilities/skills/Skewer.md",
+    "abilities/skills/Pike Wall.md",
+    "abilities/skills/Impale.md",
+    "abilities/skills/Sweeping Strike.md",
+    "abilities/skills/Reach Advantage.md",
     "abilities/Untitled.canvas",
-    "Basic Actions and Conditions.md",
-    "Combat System.md",
-    "Game Mechanics.md",
-    "Social Interactions.md",
-    "Spells.md",
+    "abilities/skills",
+    "abilities/categories",
     "abilities/Untitled.canvas.tmp.55944.1766262788994",
-    "TRPG System Vault.md",
-    "abilities/Untitled.md",
-    "Combat.md",
-    "CLAUDE.md",
-    "Character Creation.md",
-    "Ability Tree.md",
-    "Equipment.md",
     "abilities",
     "Stats System.md.tmp.55944.1766158743862"
   ]
