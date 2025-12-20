@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# ABILITY TREE\n\nClassless Progression System","x":0,"y":-100,"width":400,"height":120,"color":"6"},
+		{"id":"arcane","type":"text","text":"## Arcane Magic\n*Intellect + Arcana*\n\n- Fireball\n- Misty Step\n- Lightning Bolt\n- Counterspell\n- Polymorph\n- Time Stop","x":-800,"y":-500,"width":280,"height":300,"color":"5"},
+		{"id":"divine","type":"text","text":"## Divine Magic\n*Awareness + Insight*\n\n- Cure Wounds\n- Bless\n- Turn Undead\n- Divine Shield\n- Resurrection\n- Holy Smite","x":-450,"y":-500,"width":280,"height":300,"color":"4"},
+		{"id":"nature","type":"text","text":"## Nature Magic\n*Awareness + Survival*\n\n- Entangle\n- Goodberry\n- Wildshape\n- Pass Without Trace\n- Wall of Thorns\n- Commune with Nature","x":-100,"y":-500,"width":280,"height":300,"color":"3"},
+		{"id":"swords","type":"text","text":"## Swords\n*Might or Agility*\n\n- Blade Mastery\n- Riposte\n- Whirling Blade\n- Sword Dance\n- Iaijutsu Strike\n- Perfect Cut","x":-950,"y":300,"width":280,"height":300,"color":"1"},
+		{"id":"axes-hammers","type":"text","text":"## Axes & Hammers\n*Might + Heavy Melee*\n\n- Power Attack\n- Cleave\n- Crushing Blow\n- Reckless Swing\n- Skull Splitter\n- Earthquake Slam","x":-600,"y":300,"width":280,"height":300,"color":"1"},
+		{"id":"polearms","type":"text","text":"## Polearms & Halberds\n*Might + Heavy Melee*\n\n- Reach Advantage\n- Sweeping Strike\n- Impale\n- Phalanx Formation\n- Vault Attack\n- Pike Wall","x":-250,"y":300,"width":280,"height":300,"color":"1"},
+		{"id":"daggers","type":"text","text":"## Daggers & Light Blades\n*Agility + Light Melee*\n\n- Dual Wielding\n- Quick Strike\n- Backstab\n- Arterial Strike\n- Shadow Knife\n- Flurry of Daggers","x":100,"y":300,"width":280,"height":300,"color":"2"},
+		{"id":"bows","type":"text","text":"## Bows & Crossbows\n*Agility + Ranged Combat*\n\n- Aimed Shot\n- Rapid Fire\n- Piercing Shot\n- Volley\n- Headshot\n- Arrow Storm","x":450,"y":300,"width":280,"height":300,"color":"2"},
+		{"id":"thrown","type":"text","text":"## Thrown Weapons\n*Agility or Might + Ranged*\n\n- Quick Toss\n- Returning Weapon\n- Pinning Throw\n- Multi-Throw\n- Boomerang Strike\n- Perfect Aim","x":800,"y":300,"width":280,"height":300,"color":"2"},
+		{"id":"unarmed","type":"text","text":"## Unarmed & Martial Arts\n*Might or Agility*\n\n- Stunning Strike\n- Flurry of Blows\n- Grappling Master\n- Ki Strike\n- Iron Fist\n- Pressure Points","x":1150,"y":300,"width":280,"height":300,"color":"1"},
+		{"id":"endurance","type":"text","text":"## Endurance Abilities\n*Endurance + Fortitude/Stamina*\n\n- Second Wind\n- Iron Will\n- Tough as Nails\n- Relentless\n- Regeneration\n- Unstoppable","x":250,"y":-500,"width":280,"height":300,"color":"1"},
+		{"id":"social","type":"text","text":"## Social Abilities\n*Presence + Looks/Persuasion*\n\n- Charm Person\n- Silver Tongue\n- Intimidating Presence\n- Mass Charm\n- Enthrall\n- Overwhelming Presence","x":600,"y":-500,"width":280,"height":300,"color":"6"},
+		{"id":"utility","type":"text","text":"## Utility & Passives\n\n- Darkvision\n- Arcane Recovery\n- Ritual Casting\n- Tool Expertise\n- Fast Movement\n- Unarmored Defense","x":950,"y":-500,"width":280,"height":300,"color":"3"},
+		{"id":"stealth","type":"text","text":"## Stealth & Mobility\n*Agility + Stealth/Acrobatics*\n\n- Hide in Shadows\n- Sneak Attack\n- Evasion\n- Invisibility\n- Shadow Step\n- Assassinate","x":-1780,"y":300,"width":280,"height":300,"color":"2"},
+		{"id":"equipment","type":"text","text":"# EQUIPMENT MASTERY\n\nWeapon & Armor Proficiencies","x":0,"y":700,"width":400,"height":120,"color":"3"},
+		{"id":"armor-shields","type":"text","text":"## Armor & Shields\n*Endurance or Agility*\n\n- Light Armor Mastery\n- Medium Armor Training\n- Heavy Armor Proficiency\n- Shield Master\n- Tower Shield Defense\n- Armor Specialization","x":1500,"y":300,"width":280,"height":300,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"arcane","toSide":"bottom","color":"5"},
+		{"id":"e2","fromNode":"center","fromSide":"top","toNode":"divine","toSide":"bottom","color":"4"},
+		{"id":"e3","fromNode":"center","fromSide":"top","toNode":"nature","toSide":"bottom","color":"3"},
+		{"id":"e12","fromNode":"center","fromSide":"top","toNode":"endurance","toSide":"bottom","color":"1"},
+		{"id":"e13","fromNode":"center","fromSide":"top","toNode":"social","toSide":"bottom","color":"6"},
+		{"id":"e16","fromNode":"center","fromSide":"top","toNode":"utility","toSide":"bottom","color":"3"},
+		{"id":"e11","fromNode":"center","fromSide":"bottom","toNode":"stealth","toSide":"top","color":"2"},
+		{"id":"equip","fromNode":"center","fromSide":"bottom","toNode":"equipment","toSide":"top","color":"3"},
+		{"id":"w1","fromNode":"equipment","fromSide":"bottom","toNode":"swords","toSide":"bottom","color":"1"},
+		{"id":"w2","fromNode":"equipment","fromSide":"bottom","toNode":"axes-hammers","toSide":"bottom","color":"1"},
+		{"id":"w3","fromNode":"equipment","fromSide":"bottom","toNode":"polearms","toSide":"bottom","color":"1"},
+		{"id":"w4","fromNode":"equipment","fromSide":"bottom","toNode":"daggers","toSide":"bottom","color":"2"},
+		{"id":"w5","fromNode":"equipment","fromSide":"bottom","toNode":"bows","toSide":"bottom","color":"2"},
+		{"id":"w6","fromNode":"equipment","fromSide":"bottom","toNode":"thrown","toSide":"bottom","color":"2"},
+		{"id":"w7","fromNode":"equipment","fromSide":"bottom","toNode":"unarmed","toSide":"bottom","color":"1"},
+		{"id":"a1","fromNode":"equipment","fromSide":"bottom","toNode":"armor-shields","toSide":"bottom","color":"3"}
+	]
+}
