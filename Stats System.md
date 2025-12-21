@@ -40,20 +40,20 @@ Focused skills that fall under each primary stat:
 - Light Melee (rapiers, daggers, finesse weapons - dexterity-based combat)
 
 **Endurance Skills:**
-- Fortitude (resisting poison, disease, harsh conditions)
+- Fortitude (resisting poison, disease, harsh conditions) /Max/ As far as I am aware, fortitude alludes to mental strength when facing difficulties. In that case it is something akin to Wisdom in DnD 5e. In our case we use 'Awareness', which does not include anything related to 'fortitude'. 'Endurance' skills specify physical fitness and ability to overcome physical strain. I propose changing 'Fortitude' to something akin to 'Constitution', which itself might mislead players who are familiar with DnD 5e. /Max/
 - Stamina (sustained physical activity)
 
 **Intellect Skills:**
 - Arcana (magical theory and knowledge)
 - History & Lore (recalling information)
 - Investigation (deduction, finding clues)
-- Crafting (creating items, understanding mechanisms)
+- Crafting (creating items, understanding mechanisms) /Max/ Often craftsmen must have deft hands. But 'Agility Skills' has 1 more distinct subskill already, therefore just for balance reasons 'Crafting' could be left under 'Intellect Skills'. /Max/
 
 **Awareness Skills:**
 - Insight (reading people, detecting lies)
 - Perception (noticing details, searching)
 - Survival (tracking, foraging, navigation)
-- Sixth Sense (danger detection, intuition)
+- Sixth Sense (danger detection, intuition) /Max/ Is this supposed to be "magical" skill that just lets you sense danger? Not in a way that you noticed something amiss, but just from your six sense? /Max/
 
 **Presence Skills:**
 - Persuasion (convincing, negotiating)
@@ -65,13 +65,13 @@ Focused skills that fall under each primary stat:
 ### Important Distinctions
 
 **Dual Melee Combat Systems:**
-- **Heavy Melee (Might):** Power-based fighting with heavy weapons. Slow, devastating strikes that rely on raw strength. Think barbarians, knights in heavy armor.
-- **Light Melee (Agility):** Finesse-based fighting with light weapons. Fast, precise strikes that rely on speed and technique. Think duelists, rogues, swashbucklers.
+- **Heavy Melee (Might):** Power-based fighting with heavy weapons. Slow, devastating strikes that rely on raw strength. Examples being barbarians with greataxes and knights in heavy armor.
+- **Light Melee (Agility):** Finesse-based fighting with light weapons. Fast, precise strikes that rely on speed and technique. Examples being duelists, rogues, swashbucklers.
 - You can invest in both if you want versatility, or specialize in one fighting style.
 
 **Looks vs Other Presence Skills:**
 - **Looks:** Natural attractiveness and physical charm. Affects first impressions, seduction, modeling, and situations where appearance matters. Passive influence.
-- **Persuasion:** Active convincing through logical arguments and rhetoric. Works regardless of appearance.
+- **Persuasion:** Active convincing through logical arguments and rhetoric. Works regardless of appearance. /Max/ Where are sophistry and genuine believe in one's own right. /Max/
 - **Performance:** Entertaining and captivating an audience through skill and showmanship.
 - **Leadership:** Inspiring and commanding through force of will and authority.
 
@@ -216,7 +216,7 @@ Breaking door:
 **Key Insight:** Variance is always ~50% of your maximum roll. High-level play stays exciting because there's always meaningful randomness.
 
 ## Progression Examples
-
+/Max/ Those examples are king of useless after the first two. But whatever. /Max/
 ### Level 1 Rogue (Specialist Build)
 **Primary Stats:**
 - Might: 1, Agility: 5, Endurance: 2, Intellect: 2, Awareness: 1, Presence: 1
@@ -238,7 +238,7 @@ _Gained 6 Primary points (levels 3, 6, 9) and 10 Secondary points (levels 2, 4, 
 **Secondary Stats:**
 - Sleight of Hand: 8
 - Stealth: 7
-- Perception: 4
+- Perception: 3
 
 **Key Check:**
 - Picking a lock: Total = 10 + 8 = 18 → **d9 + 9** (range: 10-18, avg 14)
@@ -254,6 +254,7 @@ _Same level progression, different allocation_
 - Athletics: 4
 - Fortitude: 3
 - Perception: 1
+- Some other stats: 5
 
 **Key Checks:**
 - Heavy weapon attack: Total = 7 + 5 = 12 → **d6 + 6** (range: 7-12, avg 9.5)
@@ -270,6 +271,7 @@ _Dexterity-based melee combatant_
 - Acrobatics: 5
 - Stealth: 2
 - Perception: 0
+- Some other stats: 5
 
 **Key Checks:**
 - Light weapon attack: Total = 9 + 6 = 15 → **d7 + 7** (range: 8-14, avg 11)
@@ -350,6 +352,7 @@ Since roll ranges scale with stats, DCs should be set based on average character
 ### Scaling DCs for Level
 
 Unlike D&D's fixed DCs, your challenges should scale:
+/Max/ That way it might diminish the progression, the feeling of powering up, because no matter how high you climb, the difficulty stays the same. Though considering such discrepancy in points between low and high level characters it's not so easy to solve. /Max/ 
 
 **Level 1-5 Tasks:**
 - Easy: 4-6
