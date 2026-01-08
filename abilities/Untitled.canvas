@@ -16,7 +16,10 @@
 		{"id":"utility","type":"text","text":"## Utility & Passives\n\n- Darkvision\n- Arcane Recovery\n- Ritual Casting\n- Tool Expertise\n- Fast Movement\n- Unarmored Defense","x":950,"y":-500,"width":280,"height":300,"color":"3"},
 		{"id":"stealth","type":"text","text":"## Stealth & Mobility\n*Agility + Stealth/Acrobatics*\n\n- Hide in Shadows\n- Sneak Attack\n- Evasion\n- Invisibility\n- Shadow Step\n- Assassinate","x":-1780,"y":300,"width":280,"height":300,"color":"2"},
 		{"id":"equipment","type":"text","text":"# EQUIPMENT MASTERY\n\nWeapon & Armor Proficiencies","x":0,"y":700,"width":400,"height":120,"color":"3"},
-		{"id":"armor-shields","type":"text","text":"## Armor & Shields\n*Endurance or Agility*\n\n- Light Armor Mastery\n- Medium Armor Training\n- Heavy Armor Proficiency\n- Shield Master\n- Tower Shield Defense\n- Armor Specialization","x":1500,"y":300,"width":280,"height":300,"color":"3"}
+		{"id":"armor-shields","type":"text","text":"## Armor & Shields\n*Endurance or Agility*\n\n- Light Armor Mastery\n- Medium Armor Training\n- Heavy Armor Proficiency\n- Shield Master\n- Tower Shield Defense\n- Armor Specialization","x":1500,"y":300,"width":280,"height":300,"color":"3"},
+		{"id":"eaa33550fe7eff89","type":"text","text":"Raw Vision Tree","x":-914,"y":-783,"width":250,"height":50,"color":"6"},
+		{"id":"7ab020e9e54d95b9","type":"text","text":"**Raw Vision**\n\n*Description*\nAllows you to perceive presence of mana. While understanding underlying workings is still beyond you, at least you would recognise its higher concentration. Mind you, masters of their craft can easily create objects with environmental mana concentration that have miraculous effects.\n\n**casting speed:** 1 phase\n**range:** 15 ft. * level\n**target:** point+epsilon?\n\n*Initial Requirements*:\n- Arcane Magic >= 4\n\n*Levels*\nlevel 1:\n\tcost 1 sp.\nlevel 2:\n\tcost 2 sp.\nlevel 3:\n\trequirements:\n\t\tRaw Vision Tree::True Vision.\n\tcost 3 sp.\nlevel 4:\n\tcost 4 sp.\n","x":-1320,"y":-1640,"width":500,"height":705,"color":"6"},
+		{"id":"e82ff4932dded681","type":"text","text":"**Phase shift**\n\n*Description*\nYou are able to shift phase of your vision, seeing only in 'Raw Vision' mod, aka seeing only presence of mana. While mana itself might be dense, it is more than possible to see through it. Therefore you are now able to disregard certain physical and magical obstacles.\n\nWhen describing materials mana density is considered to be on ambient level. \n- Dense mana - thrice the ambient level. \n- Compressed mana - six times the ambient level.\n- Mana singularity - nine times the ambient level.\n\nDistances:\n- 16 cm of dense material (steel, mercury, other metals).\n- 64 cm of 'not so dense material' aka wood.\n- 16 cm of dense mana.\n- 4 cm of compressed mana.\n- 1 cm of mana singularity.\n\n**casting speed:** passive\n**range:** Raw Vision::range\n**target:** Raw Vision::target\n\n*Initial Requirements*:\n- Arcane Magic >= 4\n- Raw Vision Tree::Raw Vision\n\n*Levels*\nlevel 1:\n\tcost 1 sp.\nlevel 2:\n\tcost 2 sp.\n\tupgrade:\n\t\tevery distance x2 i.e. 32 cm of dense material.\nlevel 3:\n\tcost 3 sp.\n\trequirements:\n\t\tRaw Vision Tree::True Vision.\n\tupgrade:\n\t\tevery distance x4 i.e. 64 cm of dense material.\nlevel 4:\n\tcost 4 sp.\n\tupgrade:\n\t\tevery distance x8 i.e. 128 cm of dense material.\n","x":-1320,"y":-2440,"width":500,"height":705,"color":"6"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"center","fromSide":"top","toNode":"arcane","toSide":"bottom","color":"5"},
@@ -34,6 +37,9 @@
 		{"id":"w5","fromNode":"equipment","fromSide":"bottom","toNode":"bows","toSide":"bottom","color":"2"},
 		{"id":"w6","fromNode":"equipment","fromSide":"bottom","toNode":"thrown","toSide":"bottom","color":"2"},
 		{"id":"w7","fromNode":"equipment","fromSide":"bottom","toNode":"unarmed","toSide":"bottom","color":"1"},
-		{"id":"a1","fromNode":"equipment","fromSide":"bottom","toNode":"armor-shields","toSide":"bottom","color":"3"}
+		{"id":"a1","fromNode":"equipment","fromSide":"bottom","toNode":"armor-shields","toSide":"bottom","color":"3"},
+		{"id":"31fae32089929cae","fromNode":"eaa33550fe7eff89","fromSide":"top","toNode":"7ab020e9e54d95b9","toSide":"bottom"},
+		{"id":"6bf811919db1ec44","fromNode":"arcane","fromSide":"top","toNode":"eaa33550fe7eff89","toSide":"bottom"},
+		{"id":"0f0ce3aecf2926d6","fromNode":"7ab020e9e54d95b9","fromSide":"top","toNode":"e82ff4932dded681","toSide":"bottom"}
 	]
 }
