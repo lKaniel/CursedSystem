@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:abilities",
+  "search": "path:abilities/grimoire-magic  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1720462242929768,
+  "scale": 1.9976363164609336,
   "close": false
 }

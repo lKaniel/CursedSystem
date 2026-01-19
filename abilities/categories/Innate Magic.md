@@ -15,31 +15,66 @@ Innate Magic represents spells you **KNOW** - they are part of you and can be ca
 - Cast using Mana
 - Can combine arcane and nature magic
 
-## Spell Categories
+## Spell Progressions
 
-### Arcane Spells (Intellect + Arcana)
-- Fireball
-- Misty Step
-- Lightning Bolt
-- Magic Missile
-- Polymorph
-- Teleport
+Each spell exists as its own ability on the tree. Spells are linked in progression chains, with more powerful spells requiring knowledge of earlier ones.
 
-### Nature Spells (Awareness + Survival)
-- Entangle
-- Goodberry
-- Wildshape
-- Pass Without Trace
-- Wall of Thorns
-- Commune with Nature
+### Arcane Spell Paths (Intellect + Arcana)
 
-## Prerequisites
+**Fire Path:**
+- [[Ember Spark]] → [[Flame Surge]] → [[Conflagration]] → [[Firestorm]]
 
-_To be filled with specific spell prerequisites_
+**Force Path:**
+- [[Force Missiles]] → [[Force Blade]] → [[Kinetic Burst]] → [[Arcane Barrage]]
+
+**Space/Teleportation Path:**
+- [[Blink Step]] → [[Phase Shift]] → [[Far Step]] → [[Plane Walk]]
+
+**Protection Path:**
+- [[Arcane Barrier]] → [[Spell Reflection]] → [[Mana Shield]] → [[Impenetrable Fortress]]
+
+**Lightning Path:**
+- Storm Bolt → Chain Lightning → Lightning Storm → Wrath of the Heavens
+
+**Ice Path:**
+- Frost Touch → Ice Shard → Frozen Prison → Glacier Wave
+
+### Nature Spell Paths (Awareness + Survival)
+
+**Plant/Earth Path:**
+- [[Verdant Growth]] → [[Thorn Barrier]] → [[Strangling Vines]] → [[Nature's Wrath]]
+
+**Healing Path:**
+- [[Wild Restoration]] → [[Regeneration]] → [[Mass Healing]] → [[Circle of Renewal]]
+
+**Shapeshifting Path:**
+- [[Primal Shift]] → [[Elemental Form]] → [[Chimera Shape]] → [[Apex Predator]]
+
+**Weather Path:**
+- [[Storm Call]] → [[Hurricane]] → [[Tempest Fury]] → [[Apocalypse Storm]]
+
+**Stealth/Nature Path:**
+- [[Shadow of the Forest]] → [[One with Nature]] → [[Forest Walk]] → [[Nature's Camouflage]]
+
+**Beast/Summoning Path:**
+- Call Beast → Summon Pack → Primal Guardian → Avatar of the Wild
+
+## Learning Spells
+
+To unlock an innate spell:
+1. Meet the stat prerequisites
+2. Spend 1 Ability Point
+3. Have the prerequisite spell learned (if any)
+
+Once learned, spells are permanently known and can be cast by spending Mana/Stamina.
 
 ## Scaling
 
-All innate spells scale with your relevant stats (see [[Ability Tree]]).
+All innate spells automatically scale with your relevant stats:
+- **Damage** increases with Arcana or Survival
+- **Healing** increases with Awareness/Survival
+- **Save DCs** always use: 10 + (Primary/2) + (Secondary/2)
+- **Duration/Range** often improve at specific stat thresholds
 
 ## Related
 - [[Ability Tree]]

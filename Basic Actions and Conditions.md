@@ -663,22 +663,20 @@ Many conditions grant advantage or disadvantage.
 
 ### Action Costs
 
-| Action       | Cost            | Type     |
-| ------------ | --------------- | -------- |
-| Walk         | 1 SP/5ft        | Movement |
-| Sprint       | 5 SP + 1 SP/5ft | Movement |
-| Climb/Swim   | 2 SP/5ft        | Movement |
-| Stand Up     | 3 SP            | Movement |
-| Jump         | 2 SP/5ft        | Movement |
-| Light Attack | 3 SP            | Combat   |
-| Heavy Attack | 4 SP            | Combat   |
-| Grapple      | 4 SP            | Combat   |
-| Shove        | 4 SP            | Combat   |
-| Disarm       | 5 SP            | Combat   |
-| Dodge        | 4 SP            | Reaction |
-| Hide         | 3 SP            | Utility  |
-| Search       | 3 SP            | Utility  |
-| Use Object   | 2 SP            | Utility  |
+| Action     | Cost             | Type     |
+| ---------- | ---------------- | -------- |
+| Walk       | 1 SP/5ft         | Movement |
+| Sprint     | 5 SP + 1 SP/10ft | Movement |
+| Climb/Swim | 2 SP/5ft         | Movement |
+| Stand Up   | 3 SP             | Movement |
+| Jump       | 2 SP/5ft         | Movement |
+| Grapple    | 4 SP             | Combat   |
+| Shove      | 4 SP             | Combat   |
+| Disarm     | 5 SP             | Combat   |
+| Dodge      | 4 SP             | Reaction |
+| Hide       | 3 SP             | Utility  |
+| Do         | 3 SP             | Utility  |
+| Use Object | 2 SP             | Utility  |
 
 ### Condition Quick Reference
 

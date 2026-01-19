@@ -4,20 +4,90 @@
     "type": "split",
     "children": [
       {
-        "id": "996950bd06af7057",
-        "type": "tabs",
+        "id": "034c61ac3dd774f6",
+        "type": "split",
         "children": [
           {
-            "id": "5661f06a5516834f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
+            "id": "996950bd06af7057",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5661f06a5516834f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "abilities/skills/Arrow Storm.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Arrow Storm"
+                }
+              },
+              {
+                "id": "645e13c549c6f159",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0d032734581cd092",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c228d299a47b44dd",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/vitaliishevchuk/obsidian/playsystem/newplaysystem",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: ✳ Git Merge Changes"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -90,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ability Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +170,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Ability Tree"
             }
           },
           {
@@ -108,11 +179,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ability Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Ability Tree"
             }
           },
           {
@@ -136,12 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Ability Tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Ability Tree"
             }
           }
         ]
@@ -159,44 +232,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "5661f06a5516834f",
+  "active": "c228d299a47b44dd",
   "lastOpenFiles": [
-    "abilities/categories/Bows and Crossbows.md.tmp.55944.1766272627379",
-    "abilities/skills/Perfect Aim.md",
-    "abilities/skills/Boomerang Strike.md",
-    "abilities/skills/Multi-Throw.md",
-    "abilities/skills/Returning Weapon.md",
-    "abilities/skills/Quick Toss.md",
-    "abilities/skills/Thrown Weapon Proficiency.md",
     "abilities/skills/Arrow Storm.md",
-    "abilities/skills/Headshot.md",
-    "abilities/skills/Headshot.md.tmp.55944.1766272476665",
-    "abilities/skills/Volley.md",
-    "abilities/skills/Piercing Shot.md",
-    "abilities/skills/Piercing Shot.md.tmp.55944.1766272473497",
-    "abilities/skills/Rapid Fire.md",
-    "abilities/skills/Aimed Shot.md",
-    "abilities/skills/Bow Proficiency.md",
-    "abilities/skills/Vital Strike.md",
-    "abilities/skills/Flurry of Daggers.md",
-    "abilities/skills/Shadow Knife.md",
-    "abilities/skills/Backstab.md",
-    "abilities/skills/Quick Strike.md",
-    "abilities/skills/Dual Wielding.md",
-    "abilities/skills/Dagger Proficiency.md",
-    "abilities/skills/Skewer.md",
-    "abilities/skills/Pike Wall.md",
-    "abilities/skills/Impale.md",
-    "abilities/skills/Sweeping Strike.md",
-    "abilities/skills/Reach Advantage.md",
+    "abilities/innate-magic/arcane/Arcane Barrier.md",
+    "abilities/patron-magic/pacts/Patron Ascension.md",
+    "abilities/patron-magic/pacts/Pact Recovery.md",
+    "abilities/patron-magic/pacts/Pact Invocation I.md",
+    "abilities/patron-magic/spells/fiend",
+    "abilities/patron-magic/spells/eldritch",
+    "abilities/patron-magic/spells/celestial",
+    "abilities/patron-magic/spells/archfey",
+    "abilities/patron-magic/pacts/Pact Initiate.md",
+    "abilities/patron-magic/spells",
+    "abilities/patron-magic/pacts",
+    "abilities/patron-magic/invocations",
+    "abilities/patron-magic",
+    "abilities/grimoire-magic/mastery/Effortless Casting.md",
+    "abilities/grimoire-magic/spells/Summon Familiar.md",
+    "abilities/grimoire-magic/spells/Haste.md",
+    "abilities/grimoire-magic/spells/Counterspell.md",
+    "abilities/grimoire-magic/spells/Detect Magic.md",
+    "abilities/grimoire-magic/spells/Arcane Bolt.md",
+    "abilities/grimoire-magic/mastery/Living Grimoire.md",
+    "abilities/grimoire-magic/mastery/Grimoire Master.md",
+    "abilities/grimoire-magic/mastery/Spell Modification.md",
+    "abilities/grimoire-magic/mastery/Battle Caster.md",
+    "abilities/grimoire-magic/mastery/Mana Efficiency.md",
+    "abilities/grimoire-magic/mastery/Rapid Reference.md",
+    "abilities/grimoire-magic/mastery/Arcane Grimoire.md",
+    "abilities/grimoire-magic/spells",
+    "abilities/grimoire-magic/mastery",
+    "abilities/innate-magic/arcane/Force Missiles.md",
     "abilities/Untitled.canvas",
-    "abilities/skills",
-    "abilities/categories",
-    "abilities/Untitled.canvas.tmp.55944.1766262788994",
-    "abilities",
-    "Stats System.md.tmp.55944.1766158743862"
+    "abilities/innate-magic/nature/Shadow of the Forest.md",
+    "abilities/innate-magic/nature/Storm Call.md",
+    "abilities/innate-magic/nature/Primal Shift.md",
+    "abilities/innate-magic/nature/Wild Restoration.md",
+    "abilities/innate-magic/nature/Verdant Growth.md",
+    "abilities/innate-magic/arcane/Blink Step.md"
   ]
 }

@@ -204,14 +204,14 @@ Breaking door:
 ### Mathematical Properties
 
 | Total Stat | Die Size | Bonus | Min Roll | Max Roll | Average |
-|------------|----------|-------|----------|----------|---------|
-| 2 | d1 | +1 | 2 | 2 | 2 |
-| 4 | d2 | +2 | 3 | 4 | 3.5 |
-| 10 | d5 | +5 | 6 | 10 | 8 |
-| 20 | d10 | +10 | 11 | 20 | 15.5 |
-| 40 | d20 | +20 | 21 | 40 | 30.5 |
-| 60 | d30 | +30 | 31 | 60 | 45.5 |
-| 100 | d50 | +50 | 51 | 100 | 75.5 |
+| ---------- | -------- | ----- | -------- | -------- | ------- |
+| 2          | d1       | +1    | 2        | 2        | 2       |
+| 4          | d2       | +2    | 3        | 4        | 3.5     |
+| 10         | d5       | +5    | 6        | 10       | 8       |
+| 20         | d10      | +10   | 11       | 20       | 15.5    |
+| 40         | d20      | +20   | 21       | 40       | 30.5    |
+| 60         | d30      | +30   | 31       | 60       | 45.5    |
+| 100        | d50      | +50   | 51       | 100      | 75.5    |
 
 **Key Insight:** Variance is always ~50% of your maximum roll. High-level play stays exciting because there's always meaningful randomness.
 
